@@ -1,0 +1,344 @@
+body{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 99dvh;
+    width: 100dvw;
+    display: fleX;
+    flex-direction: row;
+}
+.mbox1{
+    border: 2px solid black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.mbox1 .box1{
+    /* border: 2px solid blue; */
+    margin: 6% 7%;
+    width: 80%;
+}
+.mbox1 .box1 .dhead{
+    /* border: 2px solid black; */
+    color: rgb(180, 177, 177);
+    margin: 0px;
+
+}
+.mbox1 .box1 .dhead h2{
+    /* border: 2px solid red; */
+    margin: 0px;
+    font-size: 17px;
+}
+.mbox1 .box1 .cont{
+    /* border: 2px solid black; */
+    margin: 0px;
+
+}
+.mbox1 .box1 .cont h2{
+    /* border: 2px solid red; */
+    margin: 30px 0px 0px 0px;
+    font-size: 30px;
+}
+.mbox1 .box1 .email{
+    /* border: 2px solid rgb(0, 255, 115); */
+    display: flex;
+    flex-direction: column;
+    /* height: 20dvh; */
+}
+.mbox1 .box1 .email h2{
+    /* border: 2px solid violet; */
+
+}
+.mbox1 .box1 .email input{
+    /* border: 2px solid teal; */
+    border-radius: 8px;
+    height: 7dvh;
+}
+.mbox1 .box1 .payment{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+
+}
+.mbox1 .box1 .payment h2{
+    /* border: 2px solid red; */
+    margin: 20px 0px;
+    font-size: ;
+    font-weight: 600;
+}
+.mbox1 .box1 .payment .maincard{
+    border: 2px solid black;
+    border-radius: 10px;
+    /* display: flex; */
+}
+.mbox1 .box1 .payment .maincard .mcard{
+    display: flex;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+}
+.mbox1 .box1 .payment .maincard .mcard .card{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 10dvh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* padding: 10px 10px; */
+
+}
+.mbox1 .box1 .payment .maincard .mcard .card i{
+    /* border: 1px solid #000; */
+    font-size: 20px;
+    margin: 10px 6px 0px 7px;
+}
+.mbox1 .box1 .payment .maincard .mcard .card .content{
+    /* border: 1px solid black; */
+    font-size: 20px;
+    margin: 0px 7px;
+}
+.mbox1 .box1 .payment .maincard .mcard .card4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mbox1 .box1 .payment .maincard .mcard .card4 i{
+    /* border: 2px solid black; */
+    top: 0;
+}
+.mbox1 .box1 .payment .maincard .cardnumber{
+/* border: 2px solid black; */
+    margin: 18px;
+display: flex;
+flex-direction: column;
+}
+.mbox1 .box1 .payment .maincard .cardnumber input{
+    height: 38px;
+}
+.mbox1 .box1 .payment .maincard .carddetail{
+    /* border: 2px solid black; */
+    margin: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 120px;
+}
+.mbox1 .box1 .payment .maincard .carddetail .user-input-function{
+    display: flex;
+    flex-direction: column;
+    width:43%;
+    /* border: 2px solid rgb(235, 8, 8); */
+}
+.mbox1 .box1 .payment .maincard .carddetail .user-input-function label{
+    /* border: 2px solid black; */
+    width: 100%;
+    color: black;
+}
+.mbox1 .box1 .payment .maincard .carddetail .user-input-function input{
+    width: 100%;
+    width: 98%;
+}
+.mbox1 .box1 .payment .maincard .carddetail .user-input-function .symbol{
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+}
+.mbox1 .box1 .payment .maincard .carddetail .user-input-function i{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        .mbox2 {
+            background-color: rgb(226, 226, 223);
+            /* border: 2px solid rgb(5, 5, 5); */
+            height: 100%;
+            width: 50vw;
+        }
+
+        .mbox2 .boxsum {
+            /* border: 2px solid black; */
+            border-radius: 10px;
+            /* background-color: white; */
+            height: 63%;
+            width: 25vw;
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            margin-top: 220px;
+
+        }
+
+        .mbox2 .boxsum h1 {
+            /* margin: 25% 0px 15% 0px; */
+            text-align: center;
+        }
+
+        .mbox2 .boxsum .price {
+            border: 2px solid rgba(139, 139, 143, 0.61);
+            background-color: white;
+            border-radius: 10px;
+            height: 28vh;
+            width: 100%;
+        }
+
+        .mbox2 .boxsum .price .price-input-function {
+            /* border: 2px solid red; */
+            /* padding-top: 30px; */
+            padding-left: 5px;
+        }
+
+        .mbox2 .boxsum .price .price-input-function label {
+            /* border: 2px solid green; */
+            margin-top: 20px;
+            margin-bottom: 5px;
+            font-size: 20px;
+            font-weight: 500;
+            margin-left: 20px;
+            display: flex;
+            text-align: start;
+        }
+
+        .mbox2 .boxsum .price .price-input-function input[type="email"] {
+            /* border: 2px solid red; */
+            border-radius: 10px;
+            font-size: 14px;
+            margin-top: 0px;
+            margin-left: 7px;
+            height: 50px;
+            width: 70%;
+            color: rgba(63, 62, 62, 0.808);
+        }
+
+        .mbox2 .boxsum .price .price-input-function input[type="submit"] {
+            border-radius: 10px;
+            font-size: 15px;
+            width: 25%;
+            height: 50px;
+            background-color: rgb(18, 157, 250);
+            color: white;
+            outline: none;
+            border: none;
+        }
+
+        .mbox2 .boxsum .price .subt {
+            /* border: 2px solid black; */
+            display: flex;
+            height: 40px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .mbox2 .boxsum .price .subt h3 {
+            color: rgba(63, 60, 60, 0.705);
+        }
+
+        .mbox2 .boxsum .price .subt .subam {
+            color: rgba(63, 60, 60, 0.705);
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 18px;
+        }
+
+        .mbox2 .boxsum .price .taxes {
+            /* border: 2px solid black; */
+            display: flex;
+            height: 40px;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .mbox2 .boxsum .price .taxes h3 {
+            color: rgba(63, 60, 60, 0.705);
+        }
+
+        .mbox2 .boxsum .price .taxes .taxam {
+            color: rgba(63, 60, 60, 0.705);
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 18px;
+        }
+
+        .mbox2 .boxsum .price .discount {
+            /* border: 2px solid black; */
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .mbox2 .boxsum .price .discount h3 {
+            color: rgba(63, 60, 60, 0.705);
+        }
+
+        .mbox2 .boxsum .price .discount .disam {
+            color: rgba(63, 60, 60, 0.705);
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 18px;
+        }
+
+        .mbox2 .boxsum .price .total {
+            /* border: 2px solid black; */
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .mbox2 .boxsum .price .total h3 {
+            color: rgb(0, 0, 0);
+        }
+
+        .mbox2 .boxsum .price .total .totam {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 18px;
+        }
+
+        .mbox2 .boxsum .price .subt,
+        .taxes,
+        .discount,
+        .total {
+            margin: 0px 20px;
+        }
+
+        .mbox2 .boxsum .paynow {
+            border: 2px solid blue;
+            background-color: orange;
+            color: white;
+            border-radius: 14px;
+            height: 60px;
+            width: 25vw;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mbox2 .boxsum .paynow h2 {
+            /* justify-content: center; */
+            margin-top: 15px;
+            font-size: 27px;
+            margin-left: 20px;
+        }
+
+        .mbox2 .boxsum .paynow .payam {
+            justify-content: center;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 17px;
+            margin-right: 20px;
+        }

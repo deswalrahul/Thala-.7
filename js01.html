@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="script.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="jsstyle.css">
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div class="mbox1">
+        <div class="box1">
+            <div class="dhead">
+                <h2>checkout</h2>
+            </div>
+            <div class="cont">
+                <h2>contact details</h2>
+            </div>
+            <div class="email">
+                <label for="email" name="em" class="lbl">Email ID</label>
+                <input type="email" name="em" id="email" placeholder="john de">
+            </div>
+            <div class="payment">
+                <h2>payment</h2>
+                <div class="maincard">
+                    <div class="mcard">
+                        <div class="card card1">
+                            <i class="bi bi-credit-card"></i>
+                            <div class="content">Card</div>
+                        </div>
+                        <div class="card card2">
+                            <i class="bi bi-currency-bitcoin"></i>
+                            <div class="content">Crypto</div>
+                        </div>
+                        <div class="card card3">
+                            <i class="bi bi-bank"></i>
+                            <div class="content">Bank</div>
+                        </div>
+                        <div class="card card4">
+                            <i class="bi bi-three-dots-horizontal"></i>
+                        </div>
+                    </div>
+                    <div class="cardnumber">
+                        <label for="cardn" name="cardn" class="cardn" >Card Number</label>
+                        <input type="number" name="cardn" id="cardn" placeholder="John Doe">
+                    </div>
+                    <div class="carddetail">
+                        <div class="user-input-function">
+                            <label for="expiry" name="expiry">Expiry</label>
+                            <input type="number" name="expiry" id="expiry" placeholder="MM/YY" minlength="4"
+                                maxlength="4">
+                        </div>
+                        <div class="user-input-function">
+                            <label for="cvc" name="cvc">CVC</label>
+                            <input type="number" name="cvc" id="cvc" placeholder="...">
+                        </div>
+                        <div class="user-input-function " >
+                            <label for="country">Country</label>
+                            <div class="symbol">
+                                <input type="text" name="country" id="country" placeholder="India">
+                                <i class="bi bi-caret-down-fill"></i>
+                            </div>
+                        </div>
+                        <div class="user-input-function">
+                            <label for="zip">ZIP</label>
+                            <input type="number" name="zip" id="zip" placeholder="xxxx">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mbox2">
+        <div class="boxsum">
+            <h2>Order summary</h2>
+            <div class="price">
+                <div class="price-input-function">
+                    <label for="coupon" name="coupon">Enter Coupon Code</label>
+                    <div class="inp">
+                        <input type="email" name="coupon" id="coupon" placeholder="COUPON CODE" class="">
+                        <input type="button" value="Apply coupon">
+                    </div>
+                </div>
+                <div class="subt">
+                    <h3>Sub Total</h3>
+                    <div class="subam">&#8377 4,700</div>
+                </div>
+                <div class="taxes">
+                    <h3>Taxes(if applicable)</h3>
+                    <div class="taxam">&#8377 199</div>
+                </div>
+                <div class="discount">
+                    <h3>Discount</h3>
+                    <div class="disam">&#8377 0</div>
+                </div>
+                <div class="total">
+                    <h2>Total</h2>
+                    <div class="totam">&#8377 4,999</div>
+                </div>
+            </div>
+            <div class="paynow">
+                <h2>Pay Now</h2>
+                <div class="payam">&#8377 4,999</div>
+            </div>
+            <div class="micon">
+                <div class="icon1"></div>
+                <div class="icon2"></div>
+                <div class="icon3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="stnew.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <!-- Contact Details Section -->
+        <div class="contact-details">
+            <h2>Contact Details</h2>
+            <input type="email" placeholder="Email ID" class="input-field">
+        </div>
+
+        <!-- Payment Section -->
+        <div class="payment-section">
+            <h2>Payment</h2>
+            <div class="payment-methods">
+                <button class="payment-method active">Card</button>
+                <button class="payment-method">Crypto</button>
+                <button class="payment-method">Bank</button>
+                <button class="payment-method more-options">...</button>
+            </div>
+            <div class="payment-form">
+                <input type="text" placeholder="Card Number" class="input-field">
+                <div class="flex-row">
+                    <input type="text" placeholder="MM/YY" class="input-field small-field">
+                    <input type="text" placeholder="CVC" class="input-field small-field">
+                </div>
+                <div class="flex-row">
+                    <input type="text" placeholder="Country" class="input-field small-field">
+                    <input type="text" placeholder="ZIP" class="input-field small-field">
+                </div>
+            </div>
+        </div>
+
+        <!-- Order Summary Section -->
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <input type="text" placeholder="Enter Coupon Code" class="input-field coupon">
+            <button class="apply-coupon">Apply Coupon</button>
+            <div class="summary-details">
+                <p>Sub Total: ₹4,700</p>
+                <p>Taxes (if applicable): ₹199</p>
+                <p>Discount: ₹0</p>
+                <h3>Total: ₹4,999</h3>
+            </div>
+            <button class="pay-now">Pay Now ₹4,999</button>
+            <div class="payment-security">
+                <img src="secure_icon.png" alt="Secure Payment">
+                <img src="razorpay_icon.png" alt="Razorpay">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
